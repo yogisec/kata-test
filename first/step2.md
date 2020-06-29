@@ -9,7 +9,7 @@ docker image pull alpine:3.12.0
 # Run the container with:
 
 ```
-docker run -it --rm -d alpine:latest /bin/sh
+docker run -it --name shell -d alpine:3.12.0 /bin/sh
 ```
 
 
