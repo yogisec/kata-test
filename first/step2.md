@@ -4,7 +4,7 @@ Before we build our docker-compose.yml file. What is docker compose? According t
 
 What does this mean? It means that we can create multiple services (containers) all with 1 command. For our example the compose file will be building the python image based on the parameters we previously defined in our Dockerfile, starting the image, and then finally it is spinning up a redis database image to store the total number of times someone has accessed our site.
 
-Now we'll build out our docker-compose.yml file. Using the editor in the top right of the screen select the `Dockerfile`{{open}} and copy or type the code below:
+Now we'll build out our docker-compose.yml file. Using the editor in the top right of the screen select the `docker-compose.yml`{{open}} and copy or type the code below:
 
 <pre class="file" data-filename="docker-compose.yml" data-target="replace">
 version: '3'
