@@ -1,8 +1,8 @@
 {
-  "title": "Simple Docker",
-  "description": "Quick little docker demo that Eric can do.",
+  "title": "Docker Compose",
+  "description": "Building on the Docker foundation we'll move on to multiple containers with docker-compose",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
@@ -29,10 +29,18 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "host01": [{
+      "file":"*",
+      "target":"/root"
+    }]
+  },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "hideHiddenFiles": true,
+    "showdashboard": true
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu:2004"
   }
 }
