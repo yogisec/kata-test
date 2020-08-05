@@ -35,8 +35,9 @@
       }]
     }
   },
+  "files": [ "Dockerfile", "docker-compose.yml" ],
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "hideHiddenFiles": true,
     "showdashboard": true
   },
