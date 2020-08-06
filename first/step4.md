@@ -1,5 +1,3 @@
-### Run it all
-
 
 To build the images and start the services (containers) use the command below:
 
@@ -16,3 +14,4 @@ We should now be able to browse to our website:
 Click https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
 With each refresh the counter should increment.
+

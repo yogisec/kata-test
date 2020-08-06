@@ -6,20 +6,24 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Building Web Application Container",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "What is Docker Compose",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Docker Compose File",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Run it all",
         "text": "step4.md"
+      },
+      {
+        "title": "Stopping it all",
+        "text": "step5.md"
       }
     ],
     "intro": {

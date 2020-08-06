@@ -1,4 +1,3 @@
-### Building Web Application Container
 
 First we need to build our python web application. Don't worry, the python code is already built for you. We just need to build out the docker file to build the container.
 
