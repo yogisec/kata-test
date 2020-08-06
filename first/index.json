@@ -1,6 +1,6 @@
 {
   "title": "Docker Compose",
-  "description": "Building on the Docker foundation we'll move on to multiple containers with docker-compose",
+  "description": "v3Building on the Docker foundation we'll move on to multiple containers with docker-compose",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -34,10 +34,16 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [{
-        "file":"*",
-        "target":"/root/app"
-      }]
+      "host01": [
+        {
+          "file":"*",
+          "target":"/root/app"
+        }, {
+          "file":".welcome.sh",
+          "target":"/root",
+          "chmod": "+x"
+        }  
+      ]
     }
   },
   "files": [ "Dockerfile", "docker-compose.yml" ],
